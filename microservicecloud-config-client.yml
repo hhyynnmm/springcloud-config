@@ -1,0 +1,11 @@
+server:
+  port: 3355
+
+spring:
+  application:
+    name: microservicecloud-config-client2018/9/8
+
+
+management:
+  security:
+    enabled: false

@@ -1,0 +1,6 @@
+﻿server:
+  port: 99999
+
+spring:
+  application:
+    name: microservicecloud-config-client2018/9/8

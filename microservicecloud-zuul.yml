@@ -7,7 +7,6 @@ spring:
     
 zuul:
   prefix: /itcast                                                   #前缀
-  ignored-services: '*'                                        #忽略原真实应用名
   routes:
     dept:
       path: /dept/**                                              #访问路径

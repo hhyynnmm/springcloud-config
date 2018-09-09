@@ -14,7 +14,7 @@ eureka:
     instance-id: consumer-dept
     prefer-ip-address: true
   client:
-    register-with-eureka: false
+    register-with-eureka: true
     fetch-registry: true
     service-url:
       defaultZone: http://eureka1:7001/eureka/,http://eureka2:7002/eureka/,http://eureka3:7003/eureka/

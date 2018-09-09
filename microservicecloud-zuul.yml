@@ -12,6 +12,9 @@ zuul:
     dept:
       path: /dept/**                                              #访问路径
       service-id: provider                                        #应用名
+    consumer:
+      path: /consumer/**
+      service-id: consumer-dept
   
 eureka:
   instance:
